@@ -22,7 +22,7 @@ export default function Home() {
 
   return (
     <div className="flex bg-gray-100 min-h-screen items-center justify-center">
-      <div className="max-w-xl">
+      <div className="max-w-2xl">
 
         <MendableSearchBar
           anon_key={process.env.NEXT_PUBLIC_MENDABLE_API_KEY!}
@@ -35,7 +35,7 @@ export default function Home() {
               <path fillRule="evenodd" clipRule="evenodd" d="M25.148 7L26 20.6408L15.4229 21.2672L11.1795 24L9.55913 21.6144L6.852 21.7747L6 8.13391L25.148 7ZM17.4405 10.3003L14.5595 10.4408L14.8254 15.6082L17.7064 15.4677L17.4405 10.3003ZM23.0174 10.3003L20.1364 10.4408L20.4024 15.6082L23.2833 15.4677L23.0174 10.3003Z" fill="white" />
             </svg>
           }
-          askAIText="Fråga Bosse"
+          askAIText="Svårt att hitta det du söker? Fråga vår chatbot Bosse"
           messageSettings={
             { prettySources: true }
           }
